@@ -1,8 +1,15 @@
+import DesktopNavbar from "./Navbar/DesktopNavbar";
+import MobileNavbar from "./Navbar/MobileNavbar";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <>
+      <div className="relative">
+        <DesktopNavbar />
+        <MobileNavbar />
+      </div>
+    </>
+  );
+};
 
-export default Navbar
+export default Navbar;

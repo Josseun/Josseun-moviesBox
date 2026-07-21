@@ -1,7 +1,11 @@
+import Navbar from "./compoents/Navbar";
+
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="w-full overflow-x-hidden h-[200vh]">
+      <Navbar />
+    </div>
+  );
+};
 
-export default App
+export default App;
